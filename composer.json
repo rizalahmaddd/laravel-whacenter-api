@@ -1,5 +1,5 @@
 {
-    "name": "rizalahmaddd/whatsapp-api",
+    "name": "rizalahmaddd/laravel-whatsapp-api",
     "description": "Paket Laravel untuk mengirim pesan WhatsApp melalui API Whacenter",
     "type": "library",
     "license": "MIT",
@@ -23,5 +23,11 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true, 
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rizalahmaddd/laravel-whacenter-api"
+        }
+    ]
 }
