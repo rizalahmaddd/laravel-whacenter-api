@@ -1,0 +1,27 @@
+{
+    "name": "rizalahmaddd/whatsapp-api",
+    "description": "Paket Laravel untuk mengirim pesan WhatsApp melalui API Whacenter",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rizalahmaddd\\WhatsappApi\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "illuminate/support": "^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rizalahmaddd\\WhatsappApi\\WhatsappServiceProvider"
+            ],
+            "aliases": {
+                "Whatsapp": "Rizalahmaddd\\WhatsappApi\\Facades\\Whatsapp"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
